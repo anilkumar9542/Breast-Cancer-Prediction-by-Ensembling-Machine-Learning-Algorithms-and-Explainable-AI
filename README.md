@@ -20,7 +20,7 @@ The proposed ensemble model, combining Random Forest and Gradient Boosting, achi
 **SHAP (Shapley Additive Explanations)** interprets machine learning models by quantifying feature contributions using Shapley values. It enhances model interpretability and supports local/global analysis. In breast cancer prediction, SHAP identifies feature significance, where value changes indicate class shifts: increase/decrease suggests malignancy, while the opposite indicates benignity, aiding diagnosis transparency.
 
 **WEB APPLICATION CREATION:**
-The proposed model was saved as a pickle file and deployed using Flask. The Flask application connects three HTML pages:  
+The proposed model was saved as a pickle file and deployed using **Flask and Anaconda** is used for run time environment. The Flask application connects three HTML pages:  
 
 1. **Home**: Provides brief information about breast cancer.  
 2. **Input**: Allows users to input feature values.  
